@@ -1,2 +1,2 @@
-# my-portfolio
-sample portfolio app
+# Victor Aparicio's portfolio project
+This uses AWS and React.
