@@ -5,3 +5,7 @@ This uses AWS and React.
 Git and Github
 SSH
 Brew
+HTML
+CSS
+Font Awesome
+Google Fonts
