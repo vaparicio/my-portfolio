@@ -3,7 +3,9 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo Nothing to do stylesheet
+      # Use AWS SAM to package the application by using AWS CloudFormation
+      - aws s3 cp --recursive / s3://$WEBSITE_S3_BUCKET/public/
+      
 artifacts:
   files:
     - index.html
